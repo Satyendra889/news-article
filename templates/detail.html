@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    {% for data in detail %}
+    <div class="row">
+        <img src="/media/{{data.image}}/" height="300px" width="300px" class="center">
+    </div>
+    <div class="content">
+        <p>{{data.content}}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

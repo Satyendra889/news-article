@@ -1,0 +1,33 @@
+.row_style{
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    padding: 8px !important;
+}
+
+.col_style{
+    padding: 0px !important;
+}
+
+.col-md-2 {
+    width: 14.666667% !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+.content{
+    font-size: 20px;
+    width: 65%;
+    margin-left: auto;
+    text-align: left;
+    margin-right: auto;
+}
+
+.content p{
+    font-family: auto !important;
+}
